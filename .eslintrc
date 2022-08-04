@@ -1,0 +1,111 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb",
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "Blog": true,
+        "document": true,
+        "FormData": true,
+        "FileReader": true,
+        "localStorage": true,
+        "navigator": true,
+        "window": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "settings": {
+        "import/resolver": {
+            "react": {
+                "version": "detect"
+            },
+            "node": {
+                "paths": [
+                    "src"
+                ],
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        }
+    },
+    "plugins": [
+        "react",
+        "prettier",
+        "react-hooks"
+    ],
+    "rules": {
+        "no-plusplus": 0,
+        "no-unused-vars": "warn",
+        "import/named": 2,
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "no-console": "warn",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "react/function-component-definition": [
+            0
+        ],
+        "react/no-unstable-nested-components": [
+            "off",
+            {
+                "allowAsProps": true
+            }
+        ],
+        "react/jsx-no-constructed-context-values": "off",
+        "react/prefer-stateless-function": [
+            2,
+            {
+                "ignorePureComponents": true
+            }
+        ],
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/jsx-no-useless-fragment": [
+            0
+        ],
+        "prettier/prettier": "error",
+        "react/prop-types": 0,
+        "react/button-has-type": 0,
+        "react/no-array-index-key": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/require-default-props": [
+            0,
+            {}
+        ],
+        "camelcase": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "no-use-before-define": "off",
+        "react/no-did-update-set-state": "error",
+        "react/no-unknown-property": "error",
+        "react/no-unused-prop-types": "error",
+        "react/react-in-jsx-scope": "error"
+    }
+}

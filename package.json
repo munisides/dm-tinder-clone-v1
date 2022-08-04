@@ -1,0 +1,46 @@
+{
+  "name": "dm-tinder-clone-v1",
+  "version": "0.1.0",
+  "description": "A Tinder clone made with React and Firebase. For educational purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munisides/dm-tinder-clone-v1.git"
+  },
+  "keywords": [
+    "React",
+    "Firebase"
+  ],
+  "author": "Dez Munyeshuli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/munisides/dm-tinder-clone-v1/issues"
+  },
+  "homepage": "https://github.com/munisides/dm-tinder-clone-v1#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}

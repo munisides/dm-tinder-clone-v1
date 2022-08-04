@@ -1,0 +1,7 @@
+/cache
+data
+build
+coverage
+*.yaml
+*serviceWorker.js
+*.svg
